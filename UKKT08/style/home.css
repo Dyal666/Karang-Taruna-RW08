@@ -1,0 +1,12 @@
+.bg-blur {
+    backdrop-filter: blur(10px); /* Sesuaikan tingkat blur sesuai kebutuhan */
+  }
+
+  .icon-container {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .icon-container:hover {
+    transform: scale(1.1); /* Zoom-in effect */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+  }
